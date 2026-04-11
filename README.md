@@ -31,7 +31,7 @@ TensorFlow / PyTorch
 
 Frontend
 
-HTML, CSS, JavaScript (or React if your teammate was ambitious)
+HTML, CSS, JavaScript 
 
 Other Tools
 

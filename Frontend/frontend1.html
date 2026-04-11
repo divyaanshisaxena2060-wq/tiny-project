@@ -37,7 +37,7 @@
 
     body {
       font-family: "Inter", sans-serif;
-        background: linear-gradient(180deg, #f9fbff 0%, #f1f5ff 100%);
+      background: linear-gradient(180deg, #f9fbff 0%, #f1f5ff 100%);
       color: var(--text);
       line-height: 1.6;
     }
@@ -52,12 +52,12 @@
       color: inherit;
     }
 
-   .container{
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
+    .container{
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
     .navbar {
       position: sticky;
       top: 0;
@@ -112,22 +112,20 @@
       cursor: pointer;
     }
     .hero {
-  padding: 100px 0 80px;
-  background: radial-gradient(circle at 20% 20%, rgba(79,70,229,0.08), transparent 40%);
-  width:100%;
-}
-.upload-card {
-  width: 100%;
-}
-
-
+      padding: 100px 0 80px;
+      background: radial-gradient(circle at 20% 20%, rgba(79,70,229,0.08), transparent 40%);
+      width:100%;
+    }
+    .upload-card {
+      width: 100%;
+    }
 
     .hero-grid {
       display: grid;
-     grid-template-columns: 1fr;
+      grid-template-columns: 1fr;
       gap: 32px;
       align-items: center;
-      
+
     }
 
     .tag {
@@ -142,28 +140,27 @@
       font-size: 14px;
     }
 
-   h1 {
-   font-size: clamp(36px, 4vw, 52px);
-  font-weight: 800;
-  letter-spacing: -0.03em;
-  line-height: 1.15;
-  margin: 18px 0 16px;
-  max-width: 28ch;   /* was 20ch → now more natural */
-}
-.hero-grid > div:first-child {
-  margin-top: -20px;
-}
- h1 span {
-  background: linear-gradient(90deg, #4f46e5, #7c3aed);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+    h1 {
+      font-size: clamp(36px, 4vw, 52px);
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      line-height: 1.15;
+      margin: 18px 0 16px;
+      max-width: 28ch;   /* was 20ch → now more natural */
+    }
+    .hero-grid > div:first-child {
+      margin-top: -20px;
+    }
+    h1 span {
+      background: linear-gradient(90deg, #4f46e5, #7c3aed);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
     .hero p {
       color: var(--muted);
       font-size: 18px;
       max-width: 65ch;
     }
-
 
     .btn {
       padding: 14px 22px;
@@ -193,12 +190,12 @@
     .upload-card {
       background: rgba(255,255,255,0.75);
       backdrop-filter: blur(14px);
-      border: 1px solid rgba(255,255,255,0.4);  
+      border: 1px solid rgba(255,255,255,0.4);
       border-radius: 26px;
       padding: 22px;
       box-shadow: var(--shadow);
       margin-top: 40px;
-       width: 100%;
+      width: 100%;
     }
 
     .upload-head {
@@ -264,11 +261,11 @@
 
 
     .compare {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 18px;
-  margin-top: 26px;
-}
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+      margin-top: 26px;
+    }
 
     .compare-box {
       background: #f8fafc;
@@ -285,10 +282,10 @@
     }
 
     .art {
-  aspect-ratio: 3/2;   /* bigger height */
-  min-height: 220px;   /* force size */
-  position: relative;
-}
+      aspect-ratio: 3/2;   /* bigger height */
+      min-height: 220px;   /* force size */
+      position: relative;
+    }
 
     .art.before {
       background: linear-gradient(135deg, #d7dbe2, #adb7c8);
@@ -298,7 +295,7 @@
       background: linear-gradient(135deg, #f59e0b, #ef4444 35%, #3b82f6 68%, #22c55e);
     }
 
-    .art::before {
+    .art.empty::before {
       content: "";
       position: absolute;
       inset: 14% 20%;
@@ -416,7 +413,7 @@
 
     .footer-inner {
       display: flex;
-      justify-content: space-between;
+      justify-content: right;
       gap: 16px;
       flex-wrap: wrap;
     }
@@ -460,31 +457,31 @@
         padding: 24px 16px;
       }
       .hero-container{
-  width:100%;
-  max-width:1180px;
-  margin-inline:auto;
-  padding-inline:16px;
-}
-.compare-box {
-  background: #f8fafc;
-  border: 1px solid var(--border);
-  border-radius: 18px;
-  overflow: hidden;
-  padding: 6px;
-}
-.dropzone:hover {
-  transform: translateY(-3px) scale(1.01);
-  box-shadow: 0 12px 30px rgba(79,70,229,0.15);
-}
-.compare {
-  width: 100%;
-}
-.upload-card {
-  margin-top: 40px;
-}
-.hero-grid {
-  text-align: center;
-}
+        width:100%;
+        max-width:1180px;
+        margin-inline:auto;
+        padding-inline:16px;
+      }
+      .compare-box {
+        background: #f8fafc;
+        border: 1px solid var(--border);
+        border-radius: 18px;
+        overflow: hidden;
+        padding: 6px;
+      }
+      .dropzone:hover {
+        transform: translateY(-3px) scale(1.01);
+        box-shadow: 0 12px 30px rgba(79,70,229,0.15);
+      }
+      .compare {
+        width: 100%;
+      }
+      .upload-card {
+        margin-top: 40px;
+      }
+      .hero-grid {
+        text-align: center;
+      }
     }
   </style>
 </head>
@@ -501,7 +498,6 @@
         <a href="#how">How It Works</a>
       </nav>
 
-     
     </div>
   </header>
 
@@ -509,16 +505,11 @@
     <section class="hero">
       <div class="container hero-grid">
         <div>
-          <div class="tag">AI-powered photo restoration</div>
-         <h1>
-  Colorize <span>black and white</span> photos automatically online
-</h1>
+          <h1>Colorize <span>black and white</span> photos automatically online</h1>
           <p>
             Add natural and realistic colors to old monochrome photos with a modern AI photo colorizer interface.
             Perfect for old family portraits, ancestors, historical figures, movie stills, and classic landscapes.
           </p>
-
-         
         </div>
 
         <div class="upload-card" id="upload">
@@ -538,16 +529,14 @@
             <input type="file" id="fileInput" accept="image/*" hidden />
           </div>
 
-         
-
           <div class="compare">
             <div class="compare-box">
               <div class="label">Before</div>
-              <div class="art before"></div>
+              <div class="art before empty"></div>
             </div>
             <div class="compare-box">
               <div class="label">After</div>
-              <div class="art after"></div>
+              <div class="art after empty"></div>
             </div>
           </div>
         </div>
@@ -612,7 +601,7 @@
         <div class="cta-box">
           <div>
             <h2>Start colorizing your memories today</h2>
-          </div> 
+          </div>
         </div>
       </div>
     </section>
@@ -620,14 +609,10 @@
 
   <footer>
     <div class="container footer-inner">
-      <div>© 2026 ColorForge AI</div>
-      <div>Static landing page inspired by an AI photo colorizer structure.</div>
       <div>Developed by: Divyanshi Gupta <br>
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Divyaanshi Saxena<br>
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sanjana Solanki<br>
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Aditi Sharma<br>
-        
-       
       </div>
     </div>
   </footer>
@@ -639,12 +624,53 @@
 
     dropzone.addEventListener("click", () => fileInput.click());
 
-    fileInput.addEventListener("change", () => {
+    fileInput.addEventListener("change", async () => {
       const file = fileInput.files[0];
-      if (file) {
-        statusText.textContent = "Selected: " + file.name;
+
+      if (!file) {
+        statusText.textContent = "No file selected";
+        return;
       }
+
+  // ✅ Show selected file immediately
+  statusText.textContent = "Selected: " + file.name;
+
+  // ✅ Show BEFORE image
+    const beforeBox = document.querySelector(".art.before");
+    beforeBox.style.background =
+       `url(${URL.createObjectURL(file)}) center/cover no-repeat`;
+    beforeBox.classList.remove("empty");
+
+  const formData = new FormData();
+  formData.append("image", file);
+
+  try {
+    statusText.textContent = "Uploading...";
+
+    const response = await fetch("http://127.0.0.1:5000/colorize", {
+      method: "POST",
+      body: formData
     });
+
+    if (!response.ok) {
+      throw new Error("Server error");
+    }
+
+    const blob = await response.blob();
+    const imageURL = URL.createObjectURL(blob);
+
+    // ✅ Show AFTER image
+    const afterBox = document.querySelector(".art.after");
+    afterBox.style.background =
+      `url(${imageURL}) center/cover no-repeat`;
+    afterBox.classList.remove("empty");
+
+    statusText.textContent = "Done!";
+  } catch (error) {
+    statusText.textContent = "Error (backend probably not running)";
+    console.error(error);
+  }
+});
 
     ["dragenter", "dragover"].forEach(eventName => {
       dropzone.addEventListener(eventName, e => {

@@ -14,7 +14,7 @@ Automatically colorize images using a trained ML model
 
 Fast and efficient backend processing
 
-User-friendly interface (handled by frontend team)
+User-friendly interface 
 
 Download or view the colorized output
 
@@ -25,7 +25,7 @@ Backend
 
 Python
 
-Flask / FastAPI (whichever you used, don’t lie here)
+Flask
 
 TensorFlow / PyTorch
 

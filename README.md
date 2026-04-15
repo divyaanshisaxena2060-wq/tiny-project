@@ -1,40 +1,26 @@
-Colorizer
+# 🎨 Colorforge AI
+
+## 📌 Overview
+Colorforge AI is a web-based application that converts black and white images into colored images using AI-based processing.
+It uses a deep learning model (Caffe) to automatically add realistic colors to grayscale images.
 
 
-Overview
-
-This project is a web-based application that converts black and white images into colored images using a deep learning model. The system uses a pre-trained model to predict realistic colors and provides an easy-to-use interface for users to upload images and view results.
-
-
-Features
-
-Upload grayscale (black & white) images
-
-Automatically colorize images using a trained ML model
-
-Fast and efficient backend processing
-
-User-friendly interface 
-
-Download or view the colorized output
+## 🚀 Features
+- Convert black & white images to color
+- Simple and user-friendly interface
+- Fast image processing
+- AI-powered colorization
 
 
-Tech Stack
+## 🛠️ Tech Stack
+- Frontend: HTML, CSS, JavaScript
+- Backend: Python (Flask)
+- Libraries: OS, Subprocess
+- Model: Caffe Model
 
-Backend
 
-Python
-
-Flask
-
-TensorFlow / PyTorch
-
-Frontend
-
-HTML, CSS, JavaScript 
-
-Other Tools
-
-OpenCV
-
-NumPy
+## ⚙️ How It Works
+1. User uploads a black and white image
+2. Image is processed through Flask backend
+3. Backend uses Caffe model for colorization
+4. Output colored image is generated and displayed

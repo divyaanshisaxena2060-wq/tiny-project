@@ -43,3 +43,10 @@ Colorizer/
 │   │── colorization_deploy_v2.prototxt
 │   │── colorization_release_v2.caffemodel
 │   └── pts_in_hull.npy
+```
+
+## 📈 Future Enhancements
+- Improve color accuracy
+- Add multiple model options
+- Enhance UI/UX design
+- Add download option for images

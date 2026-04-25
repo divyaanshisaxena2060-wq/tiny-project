@@ -12,7 +12,12 @@
       --shadow: 0 18px 45px rgba(79, 70, 229, 0.12);
       --container: 1180px;
     }
-
+ .logo-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;   /* contain ki jagah yeh better hai corners ke liye */
+  border-radius: 8px;  /* adjust karo: 6px, 10px, 50% (circle) */
+}
     * {
       box-sizing: border-box;
       margin: 0;
